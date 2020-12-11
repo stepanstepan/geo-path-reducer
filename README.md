@@ -27,6 +27,7 @@ const points = [[42.35243, -71.04826], [42.35207, -71.04826], [42.35191, -71.048
 const tolerance = 0.0001;
 
 const simplifiedPoints = geoPathReducer.reduceGeoPath(points, tolerance);
+```
 
-License
+## License
 This library is licensed under the MIT license. See the LICENSE file for more details.
