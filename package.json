@@ -8,8 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "type": "module",
-  "dependencies": {
-    "geolib": "^2.1.0"
-  }
+  "type": "module"
 }
