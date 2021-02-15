@@ -1,2 +1,9 @@
 import douglasPeucker from './douglas-peucker';
-export default douglasPeucker;
+import perpendicularDistance from './perpendicular-distance';
+import distance from './distance';
+
+export default {
+  douglasPeucker,
+  perpendicularDistance,
+  distance
+};
