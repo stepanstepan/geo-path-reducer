@@ -12,10 +12,10 @@ npm install geo-path-reducer
 
 ## Usage
 
-To use the Douglas-Peucker algorithm in your JavaScript code, you can import the `douglasPeucker` function from the `geo-path-reducer` module and call it, passing in an array of points and an epsilon value. For example:
+To use the algorithm in your JavaScript code, you can import the `geoPathReducer` function from the `geo-path-reducer` module and call it, passing in an array of points and an epsilon value. For example:
 
 ```javascript
-import { douglasPeucker } from 'geo-path-reducer';
+import geoPathReducer from 'geo-path-reducer';
 
 const points = [
   { lat: 37.7749, lng: -122.4194 },
@@ -25,7 +25,7 @@ const points = [
   { lat: 37.7769, lng: -122.4159 },
 ];
 const epsilon = 0.0001;
-const simplifiedPoints = douglasPeucker(points, epsilon);
+const simplifiedPoints = geoPathReducer(points, epsilon);
 console.log(simplifiedPoints);
 ```
 
@@ -33,7 +33,7 @@ This will output an array of simplified points, with each point having `lat` and
 
 ## API
 
-### `douglasPeucker(points, epsilon)`
+### `geoPathReducer(points, epsilon)`
 
 Simplifies a curve represented by an array of points using the Douglas-Peucker algorithm.
 
